@@ -10,8 +10,9 @@ title = "immortaldir"
     immortalctl [dir] [-v]
 
 
-`immortaldir` will watch for changes in the specified directory or if
-using Linux, will scan the directory every 5 seconds searching for
+`immortaldir` will watch for changes in the specified directory
+[kqueue(2)](https://www.freebsd.org/cgi/man.cgi?query=kqueue&sektion=2),
+if using Linux, will scan the directory every 5 seconds searching for
 files ending in `.yml` and track changes. The files should conform the
 [immortal](/post/immortal) configuration format.
 
