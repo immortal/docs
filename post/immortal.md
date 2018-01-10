@@ -52,8 +52,16 @@ Path to write the supervisor pidfile
 **`-p pidfile`**
 Path to write the child pidfile
 
-**`-s seconds`**
-Seconds (int) `<seconds>` to wait before starting.
+
+**`-r <int>`**
+Number of retries before program exit, defaults to 0 (never exit). If used
+within a configuration file with the option "retries" the supervisor will not
+exit and instead will send a signal "once" preventing with this starting the
+process again unless the environment var [IMMORTAL_EXIT](/post/retries) is
+defined which will cause to "exit" the supervisor instead.
+
+**`-w seconds`**
+Seconds to wait before starting.
 
 **`-u user`**
 Execute command on behalf `<user>`

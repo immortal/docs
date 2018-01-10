@@ -15,10 +15,10 @@ by creating a native port in order to make more simple the installation process.
 The easy way so far is to install a precompiled release, [download the latest one](https://github.com/immortal/immortal/releases) that matches your architecture (*.deb) and then do:
 
 ```sh
-sudo dpkg -i immortal_0.17.0_amd64.deb
+sudo dpkg -i immortal_0.18.0_amd64.deb
 ```
 
-In this case it will install version `0.17.0` for amd64, but you still need to configure [immortaldir](/post/immortaldir) to start on boot time.
+In this case it will install version `0.18.0` for amd64, but you still need to configure [immortaldir](/post/immortaldir) to start on boot time.
 
 ## Setup immortaldir
 
