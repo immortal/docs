@@ -1,7 +1,7 @@
 +++
 date = "2010-03-22T23:34:54+02:00"
 description = "dpkg -i immortal_amd64.deb"
-title = "how to install & setup"
+title = "How to install & setup"
 +++
 
 At the moment of writing this document currently **immortal** can be installed
