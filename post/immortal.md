@@ -128,7 +128,7 @@ To  keep  services  up  and running on boot time, is better to create a configur
 
 Run command and restart it when finishes:
 
-    immortal /bin/sh -c "date && sleep 5 > /tmp/sleep.log"
+    immortal /bin/sh -c "sleep 5 && date > /tmp/sleep.log"
 
 Run command, restart it when finishes and log output to file:
 
