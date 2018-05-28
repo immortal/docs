@@ -7,7 +7,16 @@ hidden = true
 
 # pre-compiled
 
-For linux: https://github.com/immortal/immortal/releases
+Using https://packagecloud.io/immortal
+
+For `rpm`:
+
+    curl -s https://packagecloud.io/install/repositories/immortal/rpm/script.deb.sh | sudo bash
+
+For `deb`:
+
+    curl -s https://packagecloud.io/install/repositories/immortal/deb/script.deb.sh | sudo bash
+
 
 # compile from source
 
