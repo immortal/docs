@@ -11,11 +11,13 @@ Using https://packagecloud.io/immortal
 
 For `rpm`:
 
-    curl -s https://packagecloud.io/install/repositories/immortal/rpm/script.deb.sh | sudo bash
+    curl -s https://packagecloud.io/install/repositories/immortal/immortal/script.rpm.sh | sudo bash
+
 
 For `deb`:
 
-    curl -s https://packagecloud.io/install/repositories/immortal/deb/script.deb.sh | sudo bash
+    curl -s https://packagecloud.io/install/repositories/immortal/immortal/script.deb.sh | sudo bash
+
 
 
 # Compile from source
