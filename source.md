@@ -5,7 +5,7 @@ hidden = true
 
 +++
 
-# pre-compiled
+# pre-compiled (Linux)
 
 Using https://packagecloud.io/immortal
 
@@ -18,7 +18,7 @@ For `deb`:
     curl -s https://packagecloud.io/install/repositories/immortal/deb/script.deb.sh | sudo bash
 
 
-# compile from source
+# Compile from source
 
 Setup go environment https://golang.org/doc/install
 
