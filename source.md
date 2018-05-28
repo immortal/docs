@@ -7,7 +7,7 @@ hidden = true
 
 # pre-compiled (Linux)
 
-Using https://packagecloud.io/immortal
+Using https://packagecloud.io/immortal/immortal
 
 For `rpm`:
 
