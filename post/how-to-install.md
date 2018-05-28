@@ -10,15 +10,29 @@ if you are familiar with your current operating system would be nice if you
 could [contribute](https://github.com/immortal/immortal/blob/master/CONTRIBUTING.md#getting-started)
 by creating a native port in order to make more simple the installation process.
 
-## Installing on linux
+## Installing on Linux
 
-The easy way so far is to install a precompiled release, [download the latest one](https://github.com/immortal/immortal/releases) that matches your architecture (*.deb) and then do:
+The easy way so far is to install a pre-compiled release, [download the latest one](https://packagecloud.io/immortal/immortal) that matches your architecture.
+
+If need `deb` you could use:
+
+    curl -s https://packagecloud.io/install/repositories/immortal/immortal/script.deb.sh | sudo bash
+
+If need  `rpm` you could use:
+
+    curl -s https://packagecloud.io/install/repositories/immortal/immortal/script.rpm.sh | sudo bash
+
+Or get the file directly, for example an (*.deb):
+
+    wget --content-disposition https://packagecloud.io/immortal/immortal/packages/debian/stretch/immortal_0.19.0_amd64.deb/download.deb
+
+Then install it using:
 
 ```sh
-sudo dpkg -i immortal_0.18.0_amd64.deb
+sudo dpkg -i immortal_0.19.0_amd64.deb
 ```
 
-In this case it will install version `0.18.0` for amd64, but you still need to configure [immortaldir](/post/immortaldir) to start on boot time.
+In this case it will install version `0.19.0` for amd64, you may still need to configure [immortaldir](/post/immortaldir) to start on boot time.
 
 ## Setup immortaldir
 
