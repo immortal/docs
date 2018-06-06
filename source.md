@@ -7,6 +7,10 @@ hidden = true
 
 # pre-compiled (Linux)
 
+[![deb](https://img.shields.io/badge/deb-packagecloud.io-844fec.svg](https://packagecloud.io/immortal/immortal/)
+
+[![rmp](https://img.shields.io/badge/rpm-packagecloud.io-844fec.svg](https://packagecloud.io/immortal/immortal/)
+
 Using https://packagecloud.io/immortal/immortal
 
 For `rpm`:
