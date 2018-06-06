@@ -14,13 +14,13 @@ by creating a native port in order to make more simple the installation process.
 
 The easy way so far is to install a pre-compiled release, [download the latest one](https://packagecloud.io/immortal/immortal) that matches your architecture.
 
-[{{< figure src="https://img.shields.io/badge/rpm-packagecloud.io-844fec.svg" class="badge" >}}](https://packagecloud.io/immortal/immortal)
+[{{< figure src="https://img.shields.io/badge/deb-packagecloud.io-844fec.svg" class="badge" >}}](https://packagecloud.io/immortal/immortal)
 
 If need `deb` you could use:
 
     curl -s https://packagecloud.io/install/repositories/immortal/immortal/script.deb.sh | sudo bash
 
-[{{< figure src="https://img.shields.io/badge/deb-packagecloud.io-844fec.svg" class="badge" >}}](https://packagecloud.io/immortal/immortal)
+[{{< figure src="https://img.shields.io/badge/rpm-packagecloud.io-844fec.svg" class="badge" >}}](https://packagecloud.io/immortal/immortal)
 
 If need  `rpm` you could use:
 
