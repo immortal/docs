@@ -9,7 +9,7 @@ hidden = true
 
 [![deb](https://img.shields.io/badge/deb-packagecloud.io-844fec.svg)](https://packagecloud.io/immortal/immortal)
 
-[![deb]({{<figure src="https://img.shields.io/badge/deb-packagecloud.io-844fec.svg" class="badge"> }})](https://packagecloud.io/immortal/immortal)
+{{< figure src="https://img.shields.io/badge/deb-packagecloud.io-844fec.svg" class="badge"> }}
 
 
 
