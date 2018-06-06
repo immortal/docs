@@ -7,11 +7,7 @@ hidden = true
 
 # pre-compiled (Linux)
 
-+++
-[![deb](https://img.shields.io/badge/deb-packagecloud.io-844fec.svg)](https://packagecloud.io/immortal/immortal)
-+++
-
-{{< figure src="https://img.shields.io/badge/deb-packagecloud.io-844fec.svg" class="badge" >}}
+[![deb]({{< figure src="https://img.shields.io/badge/deb-packagecloud.io-844fec.svg" class="badge" >}})](https://packagecloud.io/immortal/immortal)
 
 
 
