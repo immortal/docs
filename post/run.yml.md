@@ -65,6 +65,17 @@ require:
 
 If service `foo` and  `bar` are not running, the service will not start.
 
+# require_cmd
+
+The `require_cmd` option will execute a command and if the exit status is 0 it
+will start the service, example:
+
+```yaml
+require_cmd:  test -f /tmp/foo
+```
+
+If file `/tmp/foo` exists it will start the service otherwise not.
+
 ### example using su
 
 In some cases the full environment of a user is required to be loaded before
