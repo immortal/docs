@@ -76,6 +76,8 @@ require_cmd:  test -f /tmp/foo
 
 If file `/tmp/foo` exists it will start the service otherwise not.
 
+> `require` & `require_cmd` only apply when starting the process.
+
 ### example using su
 
 In some cases the full environment of a user is required to be loaded before
