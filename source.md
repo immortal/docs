@@ -7,8 +7,7 @@ hidden = true
 
 # pre-compiled (Linux)
 
-[![deb]({{< figure src="https://img.shields.io/badge/deb-packagecloud.io-844fec.svg" class="badge" >}})](https://packagecloud.io/immortal/immortal)
-
+[{{< figure src="https://img.shields.io/badge/deb-packagecloud.io-844fec.svg" class="badge" >}}](https://packagecloud.io/immortal/immortal)
 
 
 Using https://packagecloud.io/immortal/immortal
