@@ -26,7 +26,7 @@ wait: 60
 retries: 3
 ```
 
-> by default retries is set to 0, runs forever
+> by default retries is set to -1, runs forever, if set to 0 it will exit after terminating the process
 
 ## IMMORTAL_EXIT
 
