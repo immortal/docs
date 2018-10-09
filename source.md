@@ -9,17 +9,22 @@ hidden = true
 
 Using https://packagecloud.io/immortal/immortal
 
-For `rpm`:
-
-    curl -s https://packagecloud.io/install/repositories/immortal/immortal/script.rpm.sh | sudo bash
-
-[{{< figure src="https://img.shields.io/badge/rpm-packagecloud.io-844fec.svg" class="badge" >}}](https://packagecloud.io/immortal/immortal)
 
 For `deb`:
 
     curl -s https://packagecloud.io/install/repositories/immortal/immortal/script.deb.sh | sudo bash
 
 [{{< figure src="https://img.shields.io/badge/deb-packagecloud.io-844fec.svg" class="badge" >}}](https://packagecloud.io/immortal/immortal)
+
+Then:
+
+    # apt install immortal
+
+For `rpm`:
+
+    curl -s https://packagecloud.io/install/repositories/immortal/immortal/script.rpm.sh | sudo bash
+
+[{{< figure src="https://img.shields.io/badge/rpm-packagecloud.io-844fec.svg" class="badge" >}}](https://packagecloud.io/immortal/immortal)
 
 
 
