@@ -18,7 +18,7 @@ For `deb`:
 
 Then:
 
-    # apt install immortal
+    apt install immortal
 
 For `rpm`:
 
