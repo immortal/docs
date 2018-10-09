@@ -26,6 +26,10 @@ For `rpm`:
 
 [{{< figure src="https://img.shields.io/badge/rpm-packagecloud.io-844fec.svg" class="badge" >}}](https://packagecloud.io/immortal/immortal)
 
+Then:
+
+    yum install immortal
+
 
 
 # Compile from source
