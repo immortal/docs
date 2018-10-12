@@ -22,7 +22,7 @@ If need `deb` you could use:
 
 Then:
 
-    apt-get install immortal
+    apt install immortal
 
 [{{< figure src="https://img.shields.io/badge/rpm-packagecloud.io-844fec.svg" class="badge" >}}](https://packagecloud.io/immortal/immortal)
 
