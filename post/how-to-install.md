@@ -20,11 +20,20 @@ If need `deb` you could use:
 
     curl -s https://packagecloud.io/install/repositories/immortal/immortal/script.deb.sh | sudo bash
 
+Then:
+
+    apt-get install immortal
+
 [{{< figure src="https://img.shields.io/badge/rpm-packagecloud.io-844fec.svg" class="badge" >}}](https://packagecloud.io/immortal/immortal)
 
 If need  `rpm` you could use:
 
     curl -s https://packagecloud.io/install/repositories/immortal/immortal/script.rpm.sh | sudo bash
+
+Then:
+
+    yum install immortal
+
 
 Or get the file directly, for example an (*.deb):
 
