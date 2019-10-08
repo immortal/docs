@@ -33,7 +33,7 @@ In  some  cases  it is required to supervise applications that daemonize by defa
 
 If using [immortalctl](/post/immortalctl) the color yellow on the  Down  column, helps  to  identify  does  process that have been forked and that currently are been supervised by the PID on the `<pidfile>`.  When the supervised application forks and creates a  `<pidfile>` a log entry (level DAEMON) will be created:
 
-Watching pid `<int>` on file `<pidfile>`
+Running pid `<int>` on file `<pidfile>`
 
 > The  follow  pid option has better performance on Unix/BSD due the kernel event notification mechanism [kqueue(2)](https://www.freebsd.org/cgi/man.cgi?query=kqueue&sektion=2).
 
