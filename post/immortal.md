@@ -180,7 +180,7 @@ wait: 1
 ```
 
 > Notice that when using the option `-u/user`, superuser privileges will be required
-
+> Skip `age`, `num` & `size` options to avoid `log-rotation` completely.
 
 # Nginx example to manage remotely the service:
 
